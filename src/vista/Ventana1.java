@@ -44,13 +44,17 @@ public class Ventana1 {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		JButton btnVentabauno = new JButton("Ventana TRES");
+		JButton btnVentabauno = new JButton("Ventana UNO");
 		btnVentabauno.setBounds(170, 45, 150, 23);
 		frame.getContentPane().add(btnVentabauno);
 		
-		JButton btnVentanados = new JButton("Ventana CUATRO");
-		btnVentanados.setBounds(170, 70, 150, 23);
+		JButton btnVentanados = new JButton("Ventana DOS");
+		btnVentanados.setBounds(170, 75, 150, 23);
 		frame.getContentPane().add(btnVentanados);
+		
+		JButton btnVentanatres = new JButton("Ventana TRES");
+		btnVentanatres.setBounds(170, 105, 150, 23);
+		frame.getContentPane().add(btnVentanatres);
 		
 		JButton btnSalir = new JButton("Salir");
 		btnSalir.addActionListener(new ActionListener() {
@@ -60,7 +64,7 @@ public class Ventana1 {
 		
 			}
 		});
-		btnSalir.setBounds(170, 189, 89, 23);
+		btnSalir.setBounds(170, 189, 150, 23);
 		frame.getContentPane().add(btnSalir);
 		frame.setVisible(true);
 	}
