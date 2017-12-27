@@ -44,9 +44,13 @@ public class Ventana1 {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		JButton btnBoton = new JButton("Boton");
-		btnBoton.setBounds(170, 45, 89, 23);
-		frame.getContentPane().add(btnBoton);
+		JButton btnVentabauno = new JButton("Ventana UNO");
+		btnVentabauno.setBounds(170, 45, 150, 23);
+		frame.getContentPane().add(btnVentabauno);
+		
+		JButton btnVentanados = new JButton("Ventana DOS");
+		btnVentanados.setBounds(170, 70, 150, 23);
+		frame.getContentPane().add(btnVentanados);
 		
 		JButton btnSalir = new JButton("Salir");
 		btnSalir.addActionListener(new ActionListener() {
