@@ -44,11 +44,11 @@ public class Ventana1 {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		JButton btnVentabauno = new JButton("Ventana UNO");
+		JButton btnVentabauno = new JButton("Ventana TRES");
 		btnVentabauno.setBounds(170, 45, 150, 23);
 		frame.getContentPane().add(btnVentabauno);
 		
-		JButton btnVentanados = new JButton("Ventana DOS");
+		JButton btnVentanados = new JButton("Ventana CUATRO");
 		btnVentanados.setBounds(170, 70, 150, 23);
 		frame.getContentPane().add(btnVentanados);
 		
