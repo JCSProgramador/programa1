@@ -56,6 +56,10 @@ public class Ventana1 {
 		btnVentanatres.setBounds(170, 105, 150, 23);
 		frame.getContentPane().add(btnVentanatres);
 		
+		JButton btnVentanatres = new JButton("Ventana 4");
+		btnVentanatres.setBounds(170, 125, 150, 23);
+		frame.getContentPane().add(btnVentanatres);
+
 		JButton btnSalir = new JButton("Salir");
 		btnSalir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
