@@ -10,7 +10,7 @@ import java.awt.event.ActionEvent;
 
 public class Ventana1 {
 
-	private JFrame frame;
+	JFrame frame;
 
 	/**
 	 * Launch the application.
@@ -47,6 +47,17 @@ public class Ventana1 {
 		JButton btnVentabauno = new JButton("Ventana 1");
 		btnVentabauno.setBounds(170, 45, 150, 23);
 		frame.getContentPane().add(btnVentabauno);
+		btnVentabauno.addActionListener(new ActionListener(){
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				Ventana2 window = new Ventana2();
+				window.frame.setVisible(true);
+			
+			}
+			
+		});
 		
 		JButton btnVentanados = new JButton("Ventana 2");
 		btnVentanados.setBounds(170, 75, 150, 23);
@@ -65,11 +76,14 @@ public class Ventana1 {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				frame.setVisible(false);
-		
+				
 			}
 		});
 		btnSalir.setBounds(170, 189, 150, 23);
 		frame.getContentPane().add(btnSalir);
 		frame.setVisible(true);
 	}
+	
+
 }
+

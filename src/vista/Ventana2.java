@@ -10,7 +10,7 @@ import java.awt.event.ActionEvent;
 
 public class Ventana2 {
 
-	private JFrame frame;
+	JFrame frame;
 
 	/**
 	 * Launch the application.
@@ -48,9 +48,7 @@ public class Ventana2 {
 		btnVentabauno.setBounds(170, 45, 150, 23);
 		frame.getContentPane().add(btnVentabauno);
 		
-		JButton btnVentanados = new JButton("Ventana 2");
-		btnVentanados.setBounds(170, 75, 150, 23);
-		frame.getContentPane().add(btnVentanados);
+		
 		
 		JButton btnVentanatres = new JButton("Ventana 3");
 		btnVentanatres.setBounds(170, 105, 150, 23);
